@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#gameCanvas {
+    background-color: #000;
+    border: 1px solid #333;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.controls div {
+    margin-right: 20px;
+}
+
+#startButton, #pauseButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.settings {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.settings label {
+    display: block;
+    margin-top: 10px;
+}
+
+.settings input {
+    margin-top: 5px;
+}
+
+.touch-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.touch-controls button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #ddd;
+    border: 2px solid #333;
+    outline: none;
+    transition: background-color 0.1s;
+}
+
+.touch-controls button:active {
+    background-color: #aaa;
+}
+
+.hidden {
+    display: none;
+}
+
+#countdown {
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+}
